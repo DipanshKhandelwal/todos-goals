@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default List = (props) => {
+const List = (props) => {
   return (
     <ul>
       {props.items.map((item) => (
@@ -17,3 +17,5 @@ export default List = (props) => {
     </ul>
   )
 }
+
+export default List
